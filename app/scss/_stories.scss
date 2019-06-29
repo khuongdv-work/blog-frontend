@@ -1,0 +1,48 @@
+#stories {
+    margin-bottom: 2rem;
+    .story-title {
+        font-size: 20px;
+    }
+    .stories-content {
+        list-style: none;
+        padding: 0;
+        background-color: #fff;
+        padding: 20px;
+        li {
+            border-bottom: 1px solid #ebebeb;
+            padding: 10px 0;
+            a {
+                color: black;
+            }
+            .preview-text {
+                width: 80%;
+                float: left;
+                .story-title {
+                    font-size: 14px;
+                    margin-bottom: 4px;
+                }
+                .story-author {
+                    color: $colorText;
+                    margin-bottom: 0;
+                }
+            }
+            .preview-thumbnail {
+                float: left;
+                width: 20%;
+                img {}
+            }
+        }
+        li.read-more {
+            text-transform: uppercase;
+            a {
+                color: $orangeSolid;
+                font-weight: 500;
+                font-size: 13px;
+            }
+        }
+        li:last-child {
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+}

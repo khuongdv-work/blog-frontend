@@ -1,4 +1,8 @@
-body{
+body {
     font-size: 13px;
     background-color: $bodyColor;
+}
+
+.radius-box {
+    border-radius: $radius-box;
 }

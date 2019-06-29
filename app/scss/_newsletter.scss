@@ -1,4 +1,5 @@
 .newsletter {
+    margin-bottom: 2rem;
     .letter-title {
         font-size: 20px;
     }
@@ -28,6 +29,9 @@
                     text-transform: uppercase;
                     font-size: 13px;
                     font-weight: bold;
+                }
+                .btn-subscribe:hover {
+                    background-color: red;
                 }
             }
         }
