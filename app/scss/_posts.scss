@@ -1,0 +1,79 @@
+.posts {
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        span {
+            font-size: 13px;
+            color: $colorText;
+        }
+    }
+    .post-list {
+        background-color: $white;
+        padding: 1rem;
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ebebeb;
+            .post-item {
+                .post-link {
+                    display: flex;
+                    .thumbnail {
+                        width: 100px;
+                        margin-right: 10px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .post-content {
+                        width: 100%;
+                        h3 {
+                            font-size: 18px;
+                        }
+                        p.post-des {
+                            margin-bottom: 5px;
+                        }
+                        .meta-shadow {
+                            margin-top: 10px;
+                            .comment-box {
+                                border: 1px solid #ebebeb;
+                                border-radius: 4px;
+                                padding: 5px 10px;
+                                background-color: #fff;
+                                margin-right: 10px;
+                                cursor: pointer;
+                                font-size: 10px;
+                                font-weight: bold;
+                                color: $colorText;
+                            }
+                            .comment-box:hover {
+                                background-color: #ebebeb;
+                            }
+                            .meta-tag {
+                                color: $colorText;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        li:last-child {
+            border-bottom: 0;
+        }
+        li.show-more-post {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            cursor: pointer;
+            .show-more-text {
+                text-transform: uppercase;
+                color: $colorText;
+                font-size: 12px;
+            }
+            .show-more-text:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

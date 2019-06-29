@@ -28,78 +28,174 @@
             <div class="container">
                 <div class="row header-content">
                     <!-- nav -->
-                    <div class="col-md-8 col-lg-8 header-left">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <!-- search -->
-                                <form class="form-inline form-search">
-                                    <label class="sr-only">Username</label>
-                                    <div class="input-group mb-2 mr-sm-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">
-                                                <i class="fas fa-search"></i>
+                    <div class="col-md-12 col-lg-12 header-left">
+                        <!--navbar-->
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="#">
+                                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M40 20c0 11.046-8.954 20-20 20S0 31.046 0 20 8.954 0 20 0s20 8.954 20 20" fill="#DA552F"></path><path d="M22.667 20H17v-6h5.667a3 3 0 0 1 0 6m0-10H13v20h4v-6h5.667a7 7 0 1 0 0-14" fill="#FFF"></path></g></svg>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <!-- search -->
+                                        <form class="form-inline form-search">
+                                            <label class="sr-only">Username</label>
+                                            <div class="input-group mb-2 mr-sm-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text">
+                                                        <i class="fas fa-search"></i>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control search-text" placeholder="Discover your next favorite">
                                             </div>
-                                        </div>
-                                        <input type="text" class="form-control search-text"
-                                        placeholder="Discover your next favorite">
-                                    </div>
-                                </form>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Details</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Jobs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Markets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Radio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Ships</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-lg-4 header-right justify-content-end">
-                        <button class="btn bg-light">
-                            LOG IN
-                        </button>
-                        <button class="btn bg-orange">
-                            SIGN UP
-                        </button>
+                                        </form>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Jobs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Markets</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Radio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ships</a>
+                                    </li>
+                                </ul>
+                                <div class="sign-in">
+                                    <button class="btn bg-light">
+                                                            LOG IN
+                                                        </button>
+                                    <button class="btn bg-orange">
+                                                            SIGN UP
+                                                        </button>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
         </header>
         <section class="container">
             <div class="wrap">
-            <div class="row news">
-                <div class="col-md-8">
-                    <h2>Upcoming<span> powered by Ship</span></h2>
-                    <div class="boxs">
-                        <div class="row news">
-                            <div class="col-md-2">
-                                <img class="img" src="https://ph-files.imgix.net/920bd2f3-f456-4bb7-9cb8-cb75d86d9308?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop" alt="">
-                            </div>
-                            <div class="col-md-10">
-                                <p class="title">Seedform</p>
-                                <p class="description">Onboard your customers faster than ever before</p>
-                                <div>
-                                    <span>
-                                        <i class="fa fa-comments"></i>4
-                                    </span>
-                                    <span>Web app</span>
+                <div class="row">
+                    <div class="col-md-8">
+
+                        <!--Posts-->
+                        <div class="posts">
+                            <h2>Upcoming<span> powered by Ship</span></h2>
+                            <ul class="post-list">
+                                <li>
+                                    <div class="post-item">
+                                        <a class="post-link">
+                                            <div class="thumbnail">
+                                                <img src=https://ph-files.imgix.net/205cfe7f-524f-4cb2-8c87-c0989f6c76ee?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop "" alt="">
+                                            </div>
+                                            <div class="post-content">
+                                                <h3>Marketing resource list</h3>
+                                                <p class="post-des">
+                                                    The biggest collection of free marketing resources
+                                                </p>
+                                                <div class="meta-shadow">
+                                                    <span class="comment-box">
+                                                            <i class="fa fa-1x fa-comment"></i>
+                                                            10
+                                                        </span>
+                                                    <span class="meta-tag">
+                                                            Web app
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-item">
+                                        <a class="post-link">
+                                            <div class="thumbnail">
+                                                <img src=https://ph-files.imgix.net/205cfe7f-524f-4cb2-8c87-c0989f6c76ee?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop "" alt="">
+                                            </div>
+                                            <div class="post-content">
+                                                <h3>Marketing resource list</h3>
+                                                <p class="post-des">
+                                                    The biggest collection of free marketing resources
+                                                </p>
+                                                <div class="meta-shadow">
+                                                    <span class="comment-box">
+                                                                <i class="fa fa-1x fa-comment"></i>
+                                                                10
+                                                            </span>
+                                                    <span class="meta-tag">
+                                                                Web app
+                                                            </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-item">
+                                        <a class="post-link">
+                                            <div class="thumbnail">
+                                                <img src=https://ph-files.imgix.net/205cfe7f-524f-4cb2-8c87-c0989f6c76ee?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop "" alt="">
+                                            </div>
+                                            <div class="post-content">
+                                                <h3>Marketing resource list</h3>
+                                                <p class="post-des">
+                                                    The biggest collection of free marketing resources
+                                                </p>
+                                                <div class="meta-shadow">
+                                                    <span class="comment-box">
+                                                                    <i class="fa fa-1x fa-comment"></i>
+                                                                    10
+                                                                </span>
+                                                    <span class="meta-tag">
+                                                                    Web app
+                                                                </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="show-more-post text-center">
+                                    <span><svg width="12" height="7" viewBox="0 0 12 7" xmlns="http://www.w3.org/2000/svg"><path d="M5.998 6.244a.99.99 0 0 1-.703-.292L1.048 1.705A1.003 1.003 0 0 1 1.05.293.996.996 0 0 1 2.462.29L6 3.83 9.538.29a1.003 1.003 0 0 1 1.412.003.997.997 0 0 1 .002 1.412L6.705 5.952a.992.992 0 0 1-.702.29z" fill="#CCC8C7"></path></svg></span>
+                                    <a class="show-more-text">Show 7 more</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--Aside-->
+                        <div class="aside">
+                            <!--Newsletter-->
+                            <div class="newsletter">
+                                <h2 class="letter-title">Newsletter</h2>
+                                <div class="letter-content">
+                                    <div class="preview">
+                                        <img src="https://ph-files.imgix.net/b030b989-c22e-4b2c-862d-13885faf3ea9?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=290&h=110&fit=clamp" alt="">
+                                        <div class="letter-des">
+                                            Get the best new products in your inbox, every day
+                                        </div>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            </div>
+                                            <button type="submit" class="btn btn-subscribe">Subscribe</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-
-                </div>
-            </div>
             </div>
         </section>
 
