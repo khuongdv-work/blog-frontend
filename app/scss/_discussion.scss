@@ -1,89 +1,106 @@
-.discussion{
+.discussion {
     margin: 2rem 0;
-    .title{
+
+    .title {
         font-size: 18px;
         text-transform: uppercase;
         color: $colorText;
     }
-    .comments{
+
+    .comments {
         background-color: #fff;
-        padding:$padding-box;
-        .box{
+        padding: $padding-box;
+
+        .box {
             margin-bottom: 2rem;
-            .comment-header{
+
+            .comment-header {
                 display: flex;
                 margin-bottom: 10px;
-                img{
+
+                img {
                     margin-right: 10px;
-                    width:30px;
+                    width: 30px;
                     height: 30px;
                 }
-                .author{
-                    
-                }
+
+                .author {}
             }
-            .comment-content{
+
+            .comment-content {
                 border-left: 3px solid #ebebeb;
                 padding-left: 1rem;
                 margin-left: 0.8rem;
-                .comment-footer{
+                .comment-footer {
                     margin: 1rem 0;
                     color: $colorText;
                     font-size: 12px;
                     font-weight: bold;
-                    .comment-up-vote{
-                        margin-right:10px;
-                        cursor: pointer; 
+
+                    .comment-up-vote {
+                        margin-right: 10px;
+                        cursor: pointer;
                     }
-                    .comment-sharing{
-                        margin-right:10px;
-                        cursor: pointer; 
+
+                    .comment-sharing {
+                        margin-right: 10px;
+                        cursor: pointer;
                     }
-                    .comment-date{
-                        cursor: pointer; 
+
+                    .comment-date {
+                        cursor: pointer;
                         font-weight: normal;
-    
+
                     }
                 }
             }
-            .cmt-reply{
-                .tag{
+
+            .cmt-reply {
+                .tag {
                     color: #da552f;
                 }
             }
         }
-        .show-more-comment{
-            .btn-show-more{
+
+        .show-more-comment {
+            .btn-show-more {
                 width: 100%;
                 background-color: #fff;
                 font-size: 12px;
                 text-transform: uppercase;
             }
-            .btn-show-more:hover{
+
+            .btn-show-more:hover {
                 background-color: #ebebeb;
+                border: 1px solid #ebebeb;
             }
         }
-        .comment-text-box{
-            padding:1.5rem 0;
+
+        .comment-text-box {
+            padding: 1.5rem 0;
             margin: 1rem 0;
             display: flex;
-            img{
+
+            img {
                 margin-right: 1rem;
                 width: 50px;
                 height: 40px;
 
             }
-            input{
+
+            input {
                 margin-right: 1rem;
                 font-size: 13px;
             }
-            .btn{
+
+            .btn {
                 background-color: $orangeSolid;
                 color: #fff;
                 font-size: 13px;
                 text-transform: uppercase;
             }
-            .btn:hover{
+
+            .btn:hover {
                 background-color: red;
             }
         }

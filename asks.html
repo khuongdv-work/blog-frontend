@@ -135,7 +135,6 @@
                                 <button class="btn btn-sharing"><i class="fab fa-twitter"></i> TWEET</button>
                                 <button class="btn btn-sharing"><i class="fab fa-facebook-f"></i> SHARE</button>
                                 <button class="btn btn-sharing"><i class="fab fa-facebook-f"></i> EMBED</button>
-                                <button class="btn time-post float-right     border">FEATURED 4 YEARS AGO</button>
                             </div>
                         </div>
                         <!-- comments -->
@@ -152,30 +151,22 @@
                                         </p>
                                     </div>
                                     <div class="comment-content">
-                                        <div class="cmt-box">
-                                            Startup Stash is a curated directory of resources and tools to help you
-                                            build
-                                            your
-                                            startup. It includes 400 products in 40 categories, like for example: Idea
+                                        <div class="cmt-box">Startup Stash is a curated directory of resources and tools to help you
+                                            build your startup. It includes 400 products in 40 categories, like for example: Idea
                                             Generation, Early users, Marketing, Raising Capital and Customer support.
-                                            Each
-                                            category consists of 10 handpicked resources and tools, all with their own
-                                            detail
+                                            Each category consists of 10 handpicked resources and tools, all with their own detail
                                             page that displays some info about the product.
-
-                                            I thought it would be fun to build a simple and useful site that can help
-                                            you
-                                            find
-                                            resources and tools while building your startup. Hopefully Startup Stash
-                                            will
-                                            become
-                                            the first thing you look at when you need a certain tool, just like an
-                                            oldskool
-                                            startpage! :)
+                                            I thought it would be fun to build a simple and useful site that can help you find
+                                            resources and tools while building your startup. Hopefully Startup Stash will become
+                                            the first thing you look at when you need a certain tool, just like an oldskool startpage! :)
                                             <div class="comment-footer">
                                                 <span class="comment-up-vote">Upvote(106)</span>
-                                                <span class="comment-sharing">Share</span>
+                                                <span class="comment-sharing" data-toggle="dropdown" id="share" aria-haspopup="true" aria-expanded="false">Share</span>
                                                 <span class="comment-date">4ys</span>
+                                                <div class="dropdown-menu" aria-labelledby="share">
+                                                    <button class="dropdown-item" type="button">Facebook</button>
+                                                    <button class="dropdown-item" type="button">Tweet</button>
+                                                  </div>
                                             </div>
                                             <!-- reply comment -->
                                             <div class="cmt-reply">
@@ -193,8 +184,12 @@
                                                     the curation process?
                                                     <div class="comment-footer">
                                                         <span class="comment-up-vote">Upvote(106)</span>
-                                                        <span class="comment-sharing">Share</span>
+                                                        <span class="comment-sharing" data-toggle="dropdown" id="share" aria-haspopup="true" aria-expanded="false">Share</span>
                                                         <span class="comment-date">4ys</span>
+                                                        <div class="dropdown-menu" aria-labelledby="share">
+                                                            <button class="dropdown-item" type="button">Facebook</button>
+                                                            <button class="dropdown-item" type="button">Tweet</button>
+                                                          </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -267,7 +262,7 @@
                             <!--Stories-->
                             <div id="stories">
                                 <h2 class="story-title">Stories...</h2>
-                                <ul class="stories-content radius-box">
+                                <ul class="stories-content rounded">
                                     <li>
                                         <a href="">
                                             <div class="preview-text">
@@ -303,7 +298,7 @@
                             <!--Newsletter-->
                             <div class="newsletter">
                                 <h2 class="letter-title">Newsletter</h2>
-                                <div class="letter-content radius-box">
+                                <div class="letter-content rounded">
                                     <div class="preview">
                                         <img src="https://ph-files.imgix.net/b030b989-c22e-4b2c-862d-13885faf3ea9?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=290&h=110&fit=clamp"
                                             alt="">
