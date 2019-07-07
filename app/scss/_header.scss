@@ -9,6 +9,10 @@ header {
     }
 
     .header-left {
+        .navbar{
+            padding-left: 0;
+            padding-right: 0;
+        }
         ul.nav {
             li.nav-item {
                 font-size: 14px;
